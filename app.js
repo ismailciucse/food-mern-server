@@ -21,8 +21,12 @@ const app = express();
 app.use(
   cors({
     origin: [
+      "http://localhost:3000",
+      "http://localhost:2000",
       "https://food-mern.onrender.com",
       "https://food-dashboard.onrender.com",
+      "https://ismailsp.netlify.app",
+      "https://ismaildb.netlify.app",
     ],
   })
 );
